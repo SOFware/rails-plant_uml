@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails-plant_uml (0.1.0)
+    rails-plant_uml (0.1.1)
       rails (>= 7.0)
       rails-erd (>= 1.7.0)
 
