@@ -8,7 +8,7 @@ describe Rails::PlantUml do
   end
 
   it "can generate a diagram" do
-    domain = Minitest::Mock.new
+    domain = Object.new
     diagram = RailsErd::PlantUml.new(domain)
     _(diagram).must_be_kind_of RailsErd::PlantUml
   end
