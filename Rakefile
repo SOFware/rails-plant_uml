@@ -13,4 +13,5 @@ require "reissue/gem"
 
 Reissue::Task.create :reissue do |task|
   task.version_file = "lib/rails/plant_uml/version.rb"
+  task.fragment = :git # Build changelog entries from git commit trailers
 end
