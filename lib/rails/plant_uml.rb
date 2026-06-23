@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require "rails"
 require "rails_erd"
 require "rails_erd/diagram"
 require "rails_erd/diagram/graphviz"
